@@ -12,7 +12,7 @@ Bcoop =(c(0.2,0.5,0.8))
 Bself =(c(2,5,15))
 n.i   =(c(5,10,25))
 
-for ( j in 2:length(split.n.i.multip)){
+for ( j in 1:length(split.n.i.multip)){
 
   #j=1
 
@@ -32,7 +32,7 @@ for ( j in 2:length(split.n.i.multip)){
     dir.create (  fold.path)
   }
 
-  library(coopSelfHerd)
+  library(cooperativeHerd)
 
   for (  i in 1:nrow(table)){
     #i=1
